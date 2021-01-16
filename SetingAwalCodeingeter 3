@@ -1,0 +1,16 @@
+Seting awal codeingeter 3
+A. config
+	1. $config ['base_url'] = ('link local host yang di buat');
+	2. $config ['index_page'] = ('index html nya di hapus, supaya kita tidak membuka file kita tanpa extensi index.html'); => akan tetapi kita harus membuat file .htaccess di luar.
+
+B. autoload
+	1. autoload
+		=> $autoload ['libraries'] = array('database', 'session','email'); => database di tulis jika kita sudah mempunyai database, jika belom jangan di tulis.
+
+	2. helpert
+		=> $autoload ['helper'] = array ('url', 'file', 'scurity'); 
+
+
+C. mengubah tampilan awal dari CI
+	jika kita ingin mengubah welcome awal dari codeingiter ini, file nya ada di CONFIG -> routers.php 
+	 -> yang 'welcome' di ganti nama file Controler yang kita buat di folder Controler
